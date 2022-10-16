@@ -1,0 +1,257 @@
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: antiquewhite;
+  font-size: large;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+  gap: 20rem;
+  padding: 1.7rem;
+  border: palevioletred 2px solid;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSILNDpPI4wJqjITGaN3DfWIz85eXmZHQWLyFrJQGXylXxLqjC3KZRIKMwnadsd4nO96Fs&usqp=CAU);
+}
+
+.result {
+  color: #d2f9b3;
+  background-color: #00000090;
+  padding: 0.5rem;
+  border-radius: 15rem;
+}
+
+.active {
+  color: #f9d6b3;
+  background-color: #00000090;
+  padding: 0.5rem;
+  border-radius: 15rem;
+  text-decoration: none;
+}
+
+.undefined {
+  text-decoration: none;
+  color: #c1e1fd;
+  background-color: #00000090;
+  border-radius: 15rem;
+  padding: 0.5rem;
+}
+
+.title {
+  color: #fff0f0;
+  text-align: end;
+  padding: 3rem;
+  font-family: "Courgette", cursive;
+  background-image: url(https://thumbs.dreamstime.com/b/pizza-wooden-table-top-view-hot-pizza-pepperoni-closeup-mozzarella-cheese-banner-flat-lay-copy-space-pizza-169109327.jpg);
+  border: palevioletred 2px solid;
+}
+
+h1 {
+  font-size: xx-large;
+}
+
+.container-card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-image: url(https://t3.ftcdn.net/jpg/04/08/51/78/360_F_408517872_u7m4me8l83eenmUcsJ1ArSZymm5Unz4X.jpg);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  border-radius: 25px;
+}
+
+.img-card {
+  margin-top: 1rem;
+  height: 260px;
+  width: 300px;
+  border-radius: 3rem;
+  border: #af7b47 4px solid;
+}
+
+.text-card {
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  color: #e3f1fdf2;
+  border: 3px solid black;
+  border-radius: 30px;
+  border: #af7b47 3px solid;
+  height: 370px;
+  width: 275px;
+  font-family: "Fredoka One", cursive;
+  background-image: url(https://w0.peakpx.com/wallpaper/802/484/HD-wallpaper-gray-wooden-texture-macro-gray-grunge-background-gray-wood-wooden-textures-gray-backgrounds-wooden-backgrounds.jpg);
+}
+
+.btninfo {
+  padding: 0.4rem;
+  width: 6.5rem;
+  border-radius: 5rem;
+  margin: 1rem;
+  color: antiquewhite;
+  font-weight: bold;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_W9xNQhfgaZmW1xzOuSwdZt2L0mQZ4cpgbg&usqp=CAU);
+}
+
+.btnadd {
+  padding: 0.4rem;
+  width: 6.5rem;
+  border-radius: 5rem;
+  margin: 1rem;
+  color: antiquewhite;
+  font-weight: bold;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_W9xNQhfgaZmW1xzOuSwdZt2L0mQZ4cpgbg&usqp=CAU);
+}
+
+/* detailPizza */
+
+.titleDesc {
+  text-align: center;
+}
+
+.containerDetail {
+  padding: 2.3rem;
+  background-image: url(https://thumbs.dreamstime.com/b/seamless-pattern-pizza-ingredients-white-background-vector-illustration-sketch-style-114005831.jpg);
+}
+
+.container-images {
+  display: flex;
+  text-align: center;
+  border: #565353a2 1px solid;
+  width: 70rem;
+  margin-top: 3rem;
+  margin-left: 1rem;
+}
+
+.image-desc {
+  display: flex;
+  width: 25rem;
+  height: 28rem;
+}
+
+.containerinfo {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-image: url(https://thumbs.dreamstime.com/b/fondo-de-madera-gris-envejecido-de-la-textura-57866087.jpg);
+  padding-left: 1rem;
+  padding-right: 2rem;
+}
+
+.name-detail {
+  text-align: start;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.container-desc {
+  display: flex;
+  text-align: start;
+  font-weight: bolder;
+  width: 400px;
+}
+
+.detailIngred {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+.ing {
+  margin: 0%;
+}
+
+/* carrito de compra */
+
+.containercart {
+  background-image: url(https://i.gifer.com/5BuH.gif);
+  background-repeat: no-repeat;
+}
+
+.container-trolley {
+  text-align: center;
+}
+
+.detail-imag {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.info-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: black 1px solid;
+  padding: 0.5px 30px 0.5px 5px;
+}
+
+.container-name {
+  width: 300px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.name {
+  height: 120px;
+}
+
+.pizza-img {
+  width: 120px;
+  height: 100px;
+}
+
+.price-result {
+  margin: 0.5rem;
+}
+
+.container-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btnmore {
+  width: 30px;
+  height: 30px;
+  color: white;
+  background-color: #02ac02b3;
+  border-radius: 5px;
+}
+
+.btnrest {
+  width: 30px;
+  height: 30px;
+  color: white;
+  background-color: #db0101b4;
+  border-radius: 5px;
+}
+
+.resultcart {
+  display: flex;
+  color: #101b10;
+  padding: 0.5rem;
+}
+
+.btnfinal {
+  background-color: #039803c8;
+  border-radius: 0.5rem;
+  padding: 0.4rem;
+  color: whitesmoke;
+  margin-bottom: 1rem;
+}
